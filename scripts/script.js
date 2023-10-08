@@ -53,11 +53,12 @@ function moveMarker(e) {
             iconAnchor: [50, 50], // Set the anchor point of the new icon (center)
             popupAnchor: [0, -50] // Set the anchor point for the popup
         }));
+
+        /*   INVOKE EXP+ FUNCTION */
         questionMarker.openPopup();
-        
-        ////////////
-    /*   INVOKE EXP+ FUNCTION */
-        ///////////
+        user.addXP(20); 
+        updateXpDisplay();
+
     }
 }
 
