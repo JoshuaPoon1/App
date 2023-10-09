@@ -2,10 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #c0e5f7;
     
 }
 
-
+.logo{
+    margin:0;
+}
 
 .header-section {
     display: flex;
@@ -25,6 +28,9 @@ body {
     width: 60px;
     height: 60px;
     margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+
 }
 
 nav ul {
@@ -145,7 +151,10 @@ nav img {
     padding: 20px; /* Add some padding */
     width: 300px; /* Set a fixed width for the container */
     background-color: #f0f0f0; /* Set a background color */
-    margin: 20px; /* Add margin for spacing */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+ 
 }
 
 /* Style the "Events Happening now" header */
@@ -171,3 +180,11 @@ nav img {
 
 
 
+.name{
+    position:absolute;
+    top: 120px;
+    font-family: 'Pixelify Sans', cursive;
+    color: rgb(209, 111, 127);
+    
+
+}

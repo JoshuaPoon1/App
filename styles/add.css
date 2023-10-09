@@ -250,7 +250,7 @@ nav img {
 .custom-button {
     background-color: #3498db; /* Button background color */
     color: #ffffff; /* Button text color */
-    padding: 10px 20px; /* Button padding */
+    padding: 7px 14px; /* Button padding */
     border: none; /* Remove the default button border */
     border-radius: 5px; /* Add rounded corners to the button */
     cursor: pointer; /* Add a pointer cursor on hover */
@@ -259,6 +259,9 @@ nav img {
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
+    text-decoration: none;
+
+    bottom: 10px;
 }
 
 /* Style for the button on hover */
